@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d8aae8;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_template.SceneController">
+    <children>
+        <Button layoutX="239.0" layoutY="186.0" mnemonicParsing="false" onAction="#switchToScene1" style="-fx-background-color: LIGHTBLUE; -fx-border-color: #111111; -fx-border-width: 0.5;" text="Switch to scene 1">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="200.0" layoutY="14.0" text="This is scene 2">
+            <font>
+                <Font name="System Bold" size="33.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

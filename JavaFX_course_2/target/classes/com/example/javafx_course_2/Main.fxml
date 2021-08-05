@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6194a2;"
+            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.javafx_course_2.Controller">
+    <children>
+        <Button alignment="CENTER" layoutX="273.0" layoutY="14.0" mnemonicParsing="false" onAction="#up"
+                prefHeight="25.0" prefWidth="65.0"
+                style="-fx-background-color: ORANGE; -fx-border-color: DARKRED; -fx-border-width: 2;" text="UP"
+                textAlignment="CENTER"/>
+        <Button layoutX="273.0" layoutY="361.0" mnemonicParsing="false" onAction="#down"
+                style="-fx-background-color: ORANGE; -fx-border-color: DARKRED; -fx-border-width: 2;" text="DOWN"/>
+        <Button layoutX="14.0" layoutY="188.0" mnemonicParsing="false" onAction="#left"
+                style="-fx-background-color: ORANGE; -fx-border-color: DARKRED; -fx-border-width: 2;" text="LEFT"/>
+        <Button layoutX="531.0" layoutY="188.0" mnemonicParsing="false" onAction="#right"
+                style="-fx-background-color: ORANGE; -fx-border-color: DARKRED; -fx-border-width: 2;" text="RIGHT"/>
+        <Circle fx:id="circle" layoutX="306.0" layoutY="188.0" radius="72.0" stroke="#5c0368" strokeType="INSIDE">
+            <fill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5595238095238095">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.42105263471603394" green="0.02923976629972458" blue="0.4079922139644623"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.007518796992481203">
+                            <color>
+                                <Color red="0.42105263471603394" green="0.02923976629972458" blue="0.4079922139644623"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="0.4376143060353584">
+                            <color>
+                                <Color red="0.6315789222717285" green="0.16081871092319489" blue="0.40404483675956726"/>
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="0.9605262875556946" green="0.5647538900375366" blue="0.9209491014480591"/>
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+    </children>
+</AnchorPane>

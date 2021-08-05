@@ -1,0 +1,16 @@
+.root{
+    -fx-background-color: #2c2b2b;
+}
+
+/*   .{class name} changes for a whole class  */
+.class{
+    -fx-font-size: 13;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: #939393;
+    -fx-alignment: center;  /* remember that alignment is relative to the "div" in SceneBuilder  */
+}
+
+/*   #{label/id} only applies on the tag in the fxml file  */
+#id{
+    -fx-font-size: 50;
+}

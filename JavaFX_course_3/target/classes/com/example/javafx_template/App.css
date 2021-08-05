@@ -1,0 +1,17 @@
+.root{
+    -fx-background-color: #2c2b2b;
+}
+
+/* See the class Label in App.fxml - this is all text */
+.label{
+    -fx-font-size: 20;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: #939393;
+    -fx-alignment: center;
+}
+
+/* This only applies on the tag titleLabel */
+#titleLabel{
+    -fx-font-size: 50;
+}
+
