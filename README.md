@@ -3,17 +3,17 @@
 This is a GitHub repo with my code, made from the JavaFX GIU by Bro Code on youtube: https://www.youtube.com/watch?v=9XJicRt_FaI&t=827s 
 
 JavaFX Course 1:
-	⁃	Intro til JavaFX og FXML
+ - Intro til JavaFX og FXML
 
 JavaFX Course 2:
-	⁃	Sammenspil mellem JavaFX, FXML og SceneBuilder
-	⁃	Demo med knapper og circle
+ - Sammenspil mellem JavaFX, FXML og SceneBuilder
+ - Demo med knapper og circle
 
 JavaFX Course 3:
-	⁃	 Sammenspil mellem (JavaFX), FXML, CSS og SceneBuilder
-	⁃	 Link JavaFX til CSS
-	⁃	 id/label reference mellem FXML til CSS
-	⁃	 Center CSS med SceneBuilder “div”
+ - Sammenspil mellem (JavaFX), FXML, CSS og SceneBuilder
+ - Link JavaFX til CSS
+ - id/label reference mellem FXML til CSS
+ - Center CSS med SceneBuilder “div”
 
 JavaFX Course 4:
  - Skift mellem flere scener
