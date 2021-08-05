@@ -36,6 +36,7 @@ JavaFX Course 8:
  - Over under 18
 
 JavaFX Course 9:
+
  - Check Box
  - Image View and Label change
 
