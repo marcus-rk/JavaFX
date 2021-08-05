@@ -1,6 +1,6 @@
 # JavaFX
 
-This is a GitHub repo with my code, made from the JavaFX GIU by Bro Code on youtube: https://www.youtube.com/watch?v=9XJicRt_FaI&t=827s 
+This is a GitHub repo with my code, made from the JavaFX GIU Course by Bro Code on youtube: https://www.youtube.com/watch?v=9XJicRt_FaI&t=827s 
 
 JavaFX Course 1:
  - Intro til JavaFX og FXML
